@@ -42,10 +42,10 @@ function App() {
               </Row>
               <Row>
                 <Col
-                  xl={{span: 8, order: 1}}
-                  lg={{span: 8, order: 1}}
-                  md={{span: 12, order: 2}}
-                  sm={{span: 12, order: 2}}
+                  xl={{span: 8, order: 3}}
+                  lg={{span: 8, order: 3}}
+                  md={{span: 12, order: 3}}
+                  sm={{span: 12, order: 3}}
                 >
                   <Photos />
                 </Col>
