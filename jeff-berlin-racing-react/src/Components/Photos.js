@@ -6,6 +6,7 @@ function Photos() {
   return (
     <div>
       <h2 className="section-header">Photos</h2>
+      <p><a href="#photos" className="link">See More</a> photos of the car in action and throughout the build!</p>
     </div>
   )
 }
