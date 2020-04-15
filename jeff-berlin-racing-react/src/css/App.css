@@ -13,9 +13,17 @@ html, body {
   height: 100vh;
 }
 
+p {
+  letter-spacing: .5px;
+  color: #707070;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
 .section-header {
   margin-bottom: 1rem;
-  letter-spacing: .5px;
 }
 
 .background {

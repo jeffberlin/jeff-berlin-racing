@@ -1,10 +1,12 @@
 import React from 'react';
 import '../css/App.css';
+import '../css/videos.css';
 
 function Videos() {
   return (
-    <div>
+    <div className="section">
       <h2 className="section-header">Videos</h2>
+      <p><a href="https://www.youtube.com/user/GymkhanaRally88" target="_blank" className="link">See more</a> videos on our YouTube channel!</p>
       <iframe
         width="450"
         height="275"

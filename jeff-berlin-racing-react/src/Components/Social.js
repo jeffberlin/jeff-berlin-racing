@@ -4,7 +4,7 @@ import '../css/App.css';
 
 function Social() {
   return (
-    <div>
+    <div className="section">
       <h2 className="section-header">Follow</h2>
       <a href="https://www.facebook.com/jeffberlinracing" target="_blank">
         <img src="./images/facebook_circle_150px.png" alt="Facebook logo" title="Like on Facebook!" height={35} />

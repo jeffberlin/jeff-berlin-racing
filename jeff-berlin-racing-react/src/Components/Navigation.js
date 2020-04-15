@@ -22,11 +22,11 @@ function Navigation() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-          <Nav>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto">
             <Nav.Link href="#home" style={styles}>Home</Nav.Link>
             <Nav.Link href="#about" style={styles}>About</Nav.Link>
-            <Nav.Link href="#News" style={styles}>News</Nav.Link>
+            <Nav.Link href="#news" style={styles}>News</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
