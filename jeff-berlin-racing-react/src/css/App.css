@@ -4,15 +4,12 @@ Blue: #0040FF */
 html, body {
 	overflow-x: hidden;
 	width: 100%;
+	height: 100%;
 	text-align: inherit;
 }
 
 body {
 	background-color: #DDDDDD;
-}
-
-.App {
-	height: 100vh;
 }
 
 p {
@@ -38,7 +35,6 @@ p {
   background-image: url(/images/jbr-background.jpg);
   padding-top: 3.5rem;
   height: 500px;
-  /* background-attachment: fixed; */
 }
 
 .content-area {
@@ -47,12 +43,4 @@ p {
   padding: 2rem;
   margin-top: 23rem;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.App-header {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: #707070;
 }

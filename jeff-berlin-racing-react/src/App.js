@@ -3,7 +3,8 @@ import Navigation from './Components/Navigation.js';
 import Videos from './Components/Videos.js';
 import Social from './Components/Social.js';
 import Photos from './Components/Photos.js';
-// import Footer from './Components/Footer.js';
+import Sponsors from './Components/Sponsors.js';
+import Footer from './Components/Footer.js';
 import './css/App.css';
 import './css/responsive.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,6 +29,7 @@ function App() {
                   lg={{span: 8, order: 1}}
                   md={{span: 12, order: 2}}
                   sm={{span: 12, order: 2}}
+                  xs={{span: 12, order: 2}}
                 >
                   <Videos />
                 </Col>
@@ -36,6 +38,7 @@ function App() {
                   lg={{span: 4, order: 2}}
                   md={{span: 12, order: 1}}
                   sm={{span: 12, order: 1}}
+                  xs={{span: 12, order: 1}}
                 >
                   <Social />
                 </Col>
@@ -46,12 +49,22 @@ function App() {
                   lg={{span: 6, order: 3}}
                   md={{span: 12, order: 3}}
                   sm={{span: 12, order: 3}}
+                  xs={{span: 12, order: 3}}
                 >
                   <Photos />
                 </Col>
               </Row>
+              <Row>
+                <Col>
+                  <Sponsors />
+                </Col>
+              </Row>
+              <Row style={{textAlign: 'center'}}>
+                <Col>
+                  <Footer />
+                </Col>
+              </Row>
             </div>
-            {/* <Footer /> */}
           </Col>
         </Container>
       </div>

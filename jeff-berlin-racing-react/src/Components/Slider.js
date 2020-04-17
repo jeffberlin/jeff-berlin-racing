@@ -24,17 +24,26 @@ const Slider = () => {
       <Fade {...fadeProperties}>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[0]} />
+            <img
+              src={fadeImages[0]}
+              alt="Sandblast Rally jump"
+            />
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[1]} />
+            <img
+              src={fadeImages[1]}
+              alt="Subaru race car interior"
+            />
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[2]} />
+            <img
+              src={fadeImages[2]}
+              alt="Wilson Rallycross Subaru slide"
+            />
           </div>
         </div>
       </Fade>

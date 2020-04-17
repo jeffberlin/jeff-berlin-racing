@@ -1,5 +1,14 @@
-@@media (min-width: 991px) {
-  .col {
-    align-self: center;
+@media (max-width: 991px) {
+  .home-video {
+    width: 320px;
+    height: 180px;
+    /* max-height: 275px; */
+  }
+}
+
+@media (min-width: 992px) {
+  .home-video {
+    width: 450px;
+    height: 275px;
   }
 }

@@ -5,7 +5,7 @@ import Slider from './Slider.js';
 
 function Photos() {
   return (
-    <div>
+    <div className="section">
       <h2 className="section-header">Photos</h2>
       <p>
         <a href="#photos" className="link">See More</a> photos of the car in action and throughout the build!

@@ -1,28 +1,34 @@
 import React from 'react';
 import '../css/App.css';
 import '../css/videos.css';
+import '../css/responsive.css';
 
 function Videos() {
   return (
     <div className="section">
       <h2 className="section-header">Videos</h2>
-      <p><a href="https://www.youtube.com/user/GymkhanaRally88" target="_blank" className="link">See more</a> videos on our YouTube channel!</p>
+      <p>
+        <a href="https://www.youtube.com/user/GymkhanaRally88" target="_blank" className="link" rel="noopener noreferrer">See more</a> videos on our YouTube channel!
+      </p>
       <iframe
-        width="450"
-        height="275"
+        className="home-video"
+        id="firstVideo"
         src="https://www.youtube.com/embed/nZIisE6Je_0"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        style={{marginRight: '1rem'}}>
+        title="Jeff Berlin Racing video"
+        rel="noopener noreferrer">
       </iframe>
       <iframe
-        width="450"
-        height="275"
+        className="home-video"
+        id="secondVideo"
         src="https://www.youtube.com/embed/7ObjcX6_BJU"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen>
+        allowFullScreen
+        title="Jeff Berlin Racing video"
+        rel="noopener noreferrer">
       </iframe>
     </div>
   )
