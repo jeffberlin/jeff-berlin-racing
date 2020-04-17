@@ -7,10 +7,12 @@ html, body {
 	text-align: inherit;
 }
 
+body {
+	background-color: #DDDDDD;
+}
+
 .App {
-  background-color: #dddddd;
-  background-color: #dddddd;
-  height: 100vh;
+	height: 100vh;
 }
 
 p {
@@ -51,7 +53,6 @@ p {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-
   font-size: calc(10px + 2vmin);
   color: #707070;
 }

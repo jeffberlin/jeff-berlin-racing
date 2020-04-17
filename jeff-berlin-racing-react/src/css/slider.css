@@ -2,6 +2,28 @@
   text-align: center;
 }
 
+.react-slideshow-container .nav:first-of-type, .react-slideshow-container .nav {
+  border: 1px solid #0040FF;
+}
+
+.react-slideshow-container .nav:hover {
+  border: 1px solid #FF6600;
+  background-color: #DDDDDD;
+}
+
 .react-slideshow-container .nav span {
   border-color: #FF6600;
+}
+
+.react-slideshow-container .nav:hover > span{
+  border-color: #0040FF;
+}
+
+.image-container img {
+  height: 500px;
+}
+
+.react-slideshow-container .nav:hover, .react-slideshow-container .nav:hover > span {
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }

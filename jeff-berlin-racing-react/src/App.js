@@ -42,8 +42,8 @@ function App() {
               </Row>
               <Row>
                 <Col
-                  xl={{span: 8, order: 3}}
-                  lg={{span: 8, order: 3}}
+                  xl={{span: 6, order: 3}}
+                  lg={{span: 6, order: 3}}
                   md={{span: 12, order: 3}}
                   sm={{span: 12, order: 3}}
                 >
