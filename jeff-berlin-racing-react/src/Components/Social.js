@@ -1,10 +1,8 @@
 import React from 'react';
-import '../css/social.css';
-import '../css/App.css';
 
 function Social() {
   return (
-    <div className="section">
+    <div className="section social">
       <h2 className="section-header">Follow</h2>
       <a href="https://www.facebook.com/jeffberlinracing" target="_blank" rel="noopener noreferrer">
         <img src="./images/facebook_circle_150px.png" alt="Facebook logo" title="Like on Facebook!" height={35} />

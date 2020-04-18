@@ -1,11 +1,8 @@
 import React from 'react';
-import '../css/App.css';
-import '../css/videos.css';
-import '../css/responsive.css';
 
 function Videos() {
   return (
-    <div className="section">
+    <div className="section videos">
       <h2 className="section-header">Videos</h2>
       <p>
         <a href="https://www.youtube.com/user/GymkhanaRally88" target="_blank" className="link" rel="noopener noreferrer">See more</a> videos on our YouTube channel!
