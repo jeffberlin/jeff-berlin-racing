@@ -1,14 +1,14 @@
 import React from 'react';
-import Slider from './Slider.js';
+import CarouselComponent from "./CarouselComponent.js";
 
 function Photos() {
   return (
     <div className="section photos">
       <h2 className="section-header">Photos</h2>
       <p>
-        <a href="#photos" className="link">See More</a> photos of the car in action and throughout the build!
+        <a href="#photos" className="link">See more</a> photos of the car in action and throughout the build!
       </p>
-      <Slider />
+      <CarouselComponent />
     </div>
   )
 }

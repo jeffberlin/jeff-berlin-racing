@@ -12,65 +12,44 @@ import './css/videos.css';
 import './css/social.css';
 import './css/sponsors.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
     <div className="App">
       <Navigation />
       <div className="background">
-        <Container fluid>
-          <Col
-            lg={12}
-            md={12}
-          >
+        <div className="container-fluid">
+          <div className="col-lg-12 col-md-12">
             <div className="content-area">
-              <Row>
-                <Col
-                  xl={{span: 8, order: 1}}
-                  lg={{span: 8, order: 1}}
-                  md={{span: 12, order: 2}}
-                  sm={{span: 12, order: 2}}
-                  xs={{span: 12, order: 2}}
-                >
-                  <Videos />
-                </Col>
-                <Col
-                  xl={{span: 4, order: 2}}
-                  lg={{span: 4, order: 2}}
-                  md={{span: 12, order: 1}}
-                  sm={{span: 12, order: 1}}
-                  xs={{span: 12, order: 1}}
-                >
+              <div className="row">
+                <div className="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
                   <Social />
-                </Col>
-              </Row>
-              <Row>
-                <Col
-                  xl={{span: 6, order: 3}}
-                  lg={{span: 6, order: 3}}
-                  md={{span: 12, order: 3}}
-                  sm={{span: 12, order: 3}}
-                  xs={{span: 12, order: 3}}
-                >
+                </div>
+                <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                  <Videos />
+                </div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <Photos />
-                </Col>
-              </Row>
-              <Row>
-                <Col>
+                </div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="col">
                   <Sponsors />
-                </Col>
-              </Row>
-              <Row style={{textAlign: 'center'}}>
-                <Col>
+                </div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="col text-center">
                   <Footer />
-                </Col>
-              </Row>
+                </div>
+              </div>
             </div>
-          </Col>
-        </Container>
+          </div>
+        </div>
       </div>
     </div>
   );

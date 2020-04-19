@@ -1,0 +1,16 @@
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #FF6600;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #FF6600;
+}
+
+.carousel .slide img {
+  max-width: 600px;
+  height: auto;
+}
+
+.carousel .slide {
+  background: #DDDDDD;
+}

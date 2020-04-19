@@ -15,7 +15,9 @@ function Videos() {
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Jeff Berlin Racing video"
-        rel="noopener noreferrer">
+        rel="noopener noreferrer"
+        height={275}
+        width={450}>
       </iframe>
       <iframe
         className="home-video"
@@ -25,7 +27,9 @@ function Videos() {
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Jeff Berlin Racing video"
-        rel="noopener noreferrer">
+        rel="noopener noreferrer"
+        height={275}
+        width={450}>
       </iframe>
     </div>
   )

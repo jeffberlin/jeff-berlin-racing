@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import '../css/slider.css';
+import Image from 'react-bootstrap/Image';
 
 const fadeImages = [
   './images/jeff-berlin-racing-sandblast-rally-jump-min.jpg',
@@ -14,7 +15,7 @@ const fadeProperties = {
   infinite: true,
   indicators: true,
   onChange: (oldIndex, newIndex) => {
-    console.log(`fade transition from ${oldIndex} to ${newIndex}`);
+    // console.log(`fade transition from ${oldIndex} to ${newIndex}`);
   }
 }
 
@@ -24,7 +25,7 @@ const Slider = () => {
       <Fade {...fadeProperties}>
         <div className="each-fade">
           <div className="image-container">
-            <img
+            <Image
               src={fadeImages[0]}
               alt="Sandblast Rally jump"
             />
@@ -32,7 +33,7 @@ const Slider = () => {
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img
+            <Image
               src={fadeImages[1]}
               alt="Subaru race car interior"
             />
@@ -40,7 +41,7 @@ const Slider = () => {
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img
+            <Image
               src={fadeImages[2]}
               alt="Wilson Rallycross Subaru slide"
             />
