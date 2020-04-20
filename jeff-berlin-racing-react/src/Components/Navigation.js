@@ -1,35 +1,43 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
 
 const styles = {
   paddingLeft: '.8rem',
-  paddingRight: '.8rem'
+  paddingRight: '.8rem',
+  color: '#707070',
+  letterSpacing: '1px'
 }
 
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="md" fixed='top'>
-      <Container>
-        <Navbar.Brand href="#home">
-          <img
-            src="./images/jbr-logo.png"
-            alt="Jeff Berlin Racing logo"
-            height={40}
-          />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="#home" style={styles}>Home</Nav.Link>
-            <Nav.Link href="#about" style={styles}>About</Nav.Link>
-            <Nav.Link href="#news" style={styles}>News</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light">
+      <div className="container">
+        <a href="#home">
+          <img src="./images/jb-new-logo-text.png" alt="Jeff Berlin Racing" height={40} />
+        </a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a href="#home" style={styles}>Home</a>
+            </li>
+            <li className="nav-item">
+              <a href="#about" style={styles}>About</a>
+            </li>
+            <li className="nav-item">
+              <a href="#news" style={styles}>News</a>
+            </li>
+            <li className="nav-item">
+              <a href="#contact" style={styles}>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   )
 }
 

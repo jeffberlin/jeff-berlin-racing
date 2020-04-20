@@ -6,7 +6,7 @@ import '../css/carousel.css';
 
 function CarouselComponent() {
   return (
-    <div class="carousel-wrapper">
+    <div className="carousel-wrapper">
       <Carousel
         autoPlay
         infiniteLoop
