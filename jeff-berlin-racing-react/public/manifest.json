@@ -3,9 +3,9 @@
   "name": "Jeff Berlin Racing",
   "icons": [
     {
-      "src": "jbrfavicon.png",
+      "src": "jeff-berlin-racing-favicon-64px.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "type": "image/jpg"
     },
     {
       "src": "/images/jeff-berlin-racing-sandblast-rally-jump.jpg",
