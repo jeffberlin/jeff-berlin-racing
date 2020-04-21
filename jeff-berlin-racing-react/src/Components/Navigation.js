@@ -15,7 +15,7 @@ function Navigation() {
     <nav className="navbar navbar-expand-lg fixed-top navbar-light">
       <div className="container">
         <a href="#home">
-          <img src="./images/jb-new-logo-text.png" alt="Jeff Berlin Racing" height={40} />
+          <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
