@@ -16,8 +16,6 @@ function Videos() {
         allowFullScreen
         title="Jeff Berlin Racing video"
         rel="noopener noreferrer"
-        width="45%"
-        height="auto"
         >
       </iframe>
       <iframe

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 
 const sponsorStyle = {
-  height: 40,
+  height: 30,
   marginBottom: '1.2rem'
 }
 
