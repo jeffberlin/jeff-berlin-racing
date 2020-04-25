@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Error() {
-  return <h1>Something went wrong! Please try again.</h1>
+  return (
+    <div className="section">
+      <h2 className="section-header">Uh oh! Something went wrong! Please try again.</h2>
+    </div>
+  )
 }
 
 export default Error;

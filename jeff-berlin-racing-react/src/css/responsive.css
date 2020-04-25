@@ -21,11 +21,6 @@
 }
 
 @media (max-width: 576px) {
-  /* .home-video {
-    width: 275px;
-    height: 150px;
-  } */
-
   #firstVideo, #thirdVideo {
     margin-right: 0 !important;
   }
