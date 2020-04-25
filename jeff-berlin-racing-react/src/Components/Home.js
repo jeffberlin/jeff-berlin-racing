@@ -2,7 +2,7 @@ import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Videos from './Videos';
 import Social from './Social';
-import Photos from './Photos';
+import Slider from './Slider';
 import '../css/videos.css';
 import '../css/social.css';
 
@@ -19,7 +19,7 @@ function Home() {
     </div>
     <div className="row">
       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center justify-content-lg-start">
-        <Photos />
+        <Slider />
       </div>
     </div>
     </>

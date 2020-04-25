@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import '../css/nav.css';
-
+import Image from 'react-bootstrap/Image';
 const styles = {
   paddingLeft: '.8rem',
   paddingRight: '.8rem',
@@ -13,9 +12,9 @@ function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-light">
       <div className="container">
-        <a href="#home">
-          <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
-        </a>
+        <Link to="/home">
+          <Image src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
+        </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
