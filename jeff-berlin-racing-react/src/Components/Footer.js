@@ -6,8 +6,10 @@ function getYear() {
 
 function Footer() {
   return (
-    <div className="footer">
-      <p style={{marginBottom: 0, fontSize: '.8rem'}}>&copy;&nbsp;Jeff&nbsp;Berlin&nbsp;{getYear()}</p>
+    <div className="row justify-content-center footer">
+      <div className="col text-center">
+        <p style={{marginBottom: 0, fontSize: '.8rem'}}>&copy;&nbsp;Jeff&nbsp;Berlin&nbsp;{getYear()}</p>
+      </div>
     </div>
   )
 }

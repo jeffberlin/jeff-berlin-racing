@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+// import '../css/nav.css';
 
 const styles = {
   paddingLeft: '.8rem',
@@ -20,16 +22,16 @@ function Navigation() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a href="#home" style={styles}>Home</a>
+              <Link to="/" style={styles}>Home</Link>
             </li>
             <li className="nav-item">
-              <a href="#about" style={styles}>About</a>
+              <Link to="/about" style={styles}>About</Link>
             </li>
             <li className="nav-item">
-              <a href="#news" style={styles}>News</a>
+              <Link to="/news" style={styles}>News</Link>
             </li>
             <li className="nav-item">
-              <a href="#contact" style={styles}>Contact</a>
+              <Link to="/contact" style={styles}>Contact</Link>
             </li>
           </ul>
         </div>

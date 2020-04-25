@@ -1,53 +1,37 @@
 import React from 'react';
-import Navigation from './Components/Navigation.js';
-import Videos from './Components/Videos.js';
-import Social from './Components/Social.js';
-import Photos from './Components/Photos.js';
-import Sponsors from './Components/Sponsors.js';
-import Footer from './Components/Footer.js';
+import { Route, Switch } from "react-router-dom";
+import Navigation from './Components/Navigation';
+import Home from './Components/Home';
+import About from './Components/About';
+import News from './Components/News';
+import Photos from './Components/Photos';
+import Contact from './Components/Contact';
+import Sponsors from './Components/Sponsors';
+import Footer from './Components/Footer';
+import Error from './Components/Error';
 import './css/App.css';
-import './css/responsive.css';
 import './css/nav.css';
-import './css/videos.css';
-import './css/social.css';
+import './css/responsive.css';
 import './css/sponsors.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import './css/footer.css';
 
 function App() {
   return (
-    <div className="App">
+    <main className="background">
       <Navigation />
-      <div className="background">
-        <div className="container content-area">
-          <div className="row">
-            <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 order-lg-2 d-sm-flex justify-content-center justify-content-lg-start">
-              <Social />
-            </div>
-            <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 order-lg-1 d-sm-flex justify-content-center justify-content-lg-start">
-              <Videos />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center justify-content-lg-start">
-              <Photos />
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col">
-              <Sponsors />
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col text-center">
-              <Footer />
-            </div>
-          </div>
-        </div>
+      <div className="container content-area">
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/about" component={About} />
+          <Route path="/news" component={News} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/photos" component={Photos} />
+          <Route component={Error} />
+        </Switch>
+        <Sponsors />
+        <Footer />
       </div>
-    </div>
+    </main>
   );
 }
 
