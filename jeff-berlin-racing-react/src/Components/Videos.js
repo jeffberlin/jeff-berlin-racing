@@ -29,6 +29,28 @@ function Videos() {
         rel="noopener noreferrer"
         >
       </iframe>
+      <iframe
+        className="home-video"
+        id="thirdVideo"
+        src="https://www.youtube.com/embed/3kdfKHBTP-Q"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Jeff Berlin Racing video"
+        rel="noopener noreferrer"
+        >
+      </iframe>
+      <iframe
+        className="home-video"
+        id="fourthVideo"
+        src="https://www.youtube.com/embed/_-tvrb39wIU"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Jeff Berlin Racing video"
+        rel="noopener noreferrer"
+        >
+      </iframe>
     </div>
   )
 }

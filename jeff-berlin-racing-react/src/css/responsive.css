@@ -8,6 +8,9 @@
   .sponsors img {
     height: 20px;
   }
+  #secondVideo {
+    margin-right: 1rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -23,7 +26,7 @@
     height: 150px;
   } */
 
-  #firstVideo {
+  #firstVideo, #thirdVideo {
     margin-right: 0 !important;
   }
 }

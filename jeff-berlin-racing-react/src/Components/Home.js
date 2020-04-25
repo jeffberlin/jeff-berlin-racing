@@ -8,12 +8,12 @@ import '../css/social.css';
 
 function Home() {
   return (
-    <>
+    <div>
     <div className="row">
-      <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 order-lg-2 d-sm-flex justify-content-center justify-content-sm-start">
+      <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 order-lg-2 justify-content-center justify-content-sm-start">
         <Social />
       </div>
-      <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 order-lg-1 d-sm-flex justify-content-center justify-content-md-start">
+      <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 order-lg-1 justify-content-center justify-content-md-start">
         <Videos />
       </div>
     </div>
@@ -22,7 +22,7 @@ function Home() {
         <Slider />
       </div>
     </div>
-    </>
+  </div>
   )
 }
 
