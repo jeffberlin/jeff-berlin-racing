@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
-import Home from './Home';
 
 const styles = {
   paddingLeft: '.8rem',

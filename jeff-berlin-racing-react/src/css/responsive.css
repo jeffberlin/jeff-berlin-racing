@@ -8,20 +8,4 @@
   .sponsors img {
     height: 20px;
   }
-  #secondVideo {
-    margin-right: 1rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .home-video {
-    width: 100%;
-    height: 50%;
-  }
-}
-
-@media (max-width: 576px) {
-  #firstVideo, #thirdVideo {
-    margin-right: 0 !important;
-  }
 }
