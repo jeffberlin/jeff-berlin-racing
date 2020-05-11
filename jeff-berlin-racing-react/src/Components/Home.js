@@ -4,7 +4,7 @@ import Videos from './Videos';
 import Social from './Social';
 import Slider from './Slider';
 import '../css/videos.css';
-import '../css/social.css';
+// import '../css/social.css';
 
 function Home() {
   return (

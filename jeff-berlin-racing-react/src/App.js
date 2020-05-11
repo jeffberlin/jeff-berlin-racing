@@ -7,7 +7,7 @@ import News from './Components/News';
 import Photos from './Components/Photos';
 import Contact from './Components/Contact';
 import Sponsors from './Components/Sponsors';
-import Social from './Components/Social';
+// import Social from './Components/Social';
 import Footer from './Components/Footer';
 import Error from './Components/Error';
 import './css/App.css';
