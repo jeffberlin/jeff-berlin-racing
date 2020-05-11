@@ -10,7 +10,7 @@ function About() {
         <div className="section about">
           <h2 className="section-header">About</h2>
           <img
-            className="img-thumbnail"
+            className="img-thumbnail animate__fadeInLeftBig"
             src="./images/jeff-berlin-headshot.jpg"
             alt="Jeff Berlin"
             width={200}
