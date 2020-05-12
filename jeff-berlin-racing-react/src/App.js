@@ -5,9 +5,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import News from './Components/News';
 import Photos from './Components/Photos';
-import Contact from './Components/Contact';
-import Sponsors from './Components/Sponsors';
-// import Social from './Components/Social';
+// import Contact from './Components/Contact';
+// import Sponsors from './Components/Sponsors';
 import Footer from './Components/Footer';
 import Error from './Components/Error';
 import './css/App.css';
@@ -26,11 +25,10 @@ function App() {
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />
-          <Route path="/contact" component={Contact} />
           <Route path="/photos" component={Photos} />
           <Route component={Error} />
         </Switch>
-        <Sponsors />
+
         <Footer />
       </div>
     </main>

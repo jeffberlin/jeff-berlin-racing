@@ -21,7 +21,7 @@ function Navigation() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item active">
+            <li className="nav-item">
               <Link to="/" style={styles}>Home</Link>
             </li>
             <li className="nav-item">
@@ -31,8 +31,11 @@ function Navigation() {
               <Link to="/news" style={styles}>News</Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" style={styles}>Contact</Link>
+              <Link to="/photos" style={styles}>Photos</Link>
             </li>
+            {/* <li className="nav-item">
+              <Link to="/contact" style={styles}>Contact</Link>
+            </li> */}
           </ul>
         </div>
       </div>

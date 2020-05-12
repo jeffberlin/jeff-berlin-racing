@@ -1,6 +1,5 @@
 import React from 'react';
 import Social from './Social';
-import '../css/social.css';
 
 function About() {
   return (
