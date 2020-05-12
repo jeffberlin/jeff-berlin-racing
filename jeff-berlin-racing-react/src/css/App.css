@@ -41,7 +41,6 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url(/images/jeff-berlin-racing-background.jpg);
-	/* background-attachment: fixed; */
 	background-color: #FF6600;
   padding-top: 3.5rem;
   max-height: 500px;
