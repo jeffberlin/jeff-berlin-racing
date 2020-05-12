@@ -9,3 +9,14 @@
     height: 20px;
   }
 }
+
+@media (max-width: 567px) {
+  .background {
+    height: 250px;
+    background-image: url(/images/jeff-berlin-racing-background-small.jpg);
+  }
+
+  .content-area {
+    margin-top: 10rem;
+  }
+}

@@ -5,8 +5,6 @@ import Home from './Components/Home';
 import About from './Components/About';
 import News from './Components/News';
 import Photos from './Components/Photos';
-// import Contact from './Components/Contact';
-// import Sponsors from './Components/Sponsors';
 import Footer from './Components/Footer';
 import Error from './Components/Error';
 import './css/App.css';
@@ -14,6 +12,7 @@ import './css/nav.css';
 import './css/responsive.css';
 import './css/social.css';
 import './css/sponsors.css';
+import './css/about.css';
 import './css/footer.css';
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
           <Route path="/photos" component={Photos} />
           <Route component={Error} />
         </Switch>
-
         <Footer />
       </div>
     </main>
