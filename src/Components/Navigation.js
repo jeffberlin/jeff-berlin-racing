@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom';
 
 const styles = {
@@ -8,11 +9,9 @@ const styles = {
   letterSpacing: '1px'
 }
 
-
 function Navigation() {
-
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light" collapseOnSelect>
       <div className="container">
         <Link to="/">
           <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
