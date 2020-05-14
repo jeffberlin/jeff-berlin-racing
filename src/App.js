@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react';
+import React from 'react';
 import { Route, Switch } from "react-router-dom";
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
@@ -15,26 +15,22 @@ import './css/sponsors.css';
 import './css/about.css';
 import './css/footer.css';
 
-const Home = lazy(() => import('./routes/Home'));
-const About = lazy(() => import('./routes/About'));
-const Home = lazy(() => import('./routes/News'));
-const About = lazy(() => import('./routes/Photos'));
-
-const App = () => (
-  <main className="background">
-    <Navigation />
-    <div className="container content-area">
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/about" component={About} />
-        <Route path="/news" component={News} />
-        <Route path="/photos" component={Photos} />
-        <Route component={Error} />
-      </Switch>
-      <Footer />
-    </div>
-  </main>
-);
-
+function App() {
+  return (
+    <main className="background">
+      <Navigation />
+      <div className="container content-area">
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/about" component={About} />
+          <Route path="/news" component={News} />
+          <Route path="/photos" component={Photos} />
+          <Route component={Error} />
+        </Switch>
+        <Footer />
+      </div>
+    </main>
+  );
+}
 
 export default App;

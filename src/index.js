@@ -6,9 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Suspense fallback={<div>Loading...</div>}>
-      <App />
-    </Suspense>
+    <App />
   </BrowserRouter>,
   document.getElementById('root')
 );
