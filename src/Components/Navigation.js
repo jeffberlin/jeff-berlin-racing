@@ -17,7 +17,7 @@ function Navigation() {
     <Navbar expand="lg" fixed="top" collapseOnSelect>
       <Container>
         <Navbar.Brand>
-          <LinkContainer to="/">
+          <LinkContainer to="/" exact>
             <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
           </LinkContainer>
         </Navbar.Brand>
