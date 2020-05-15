@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-// import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const styles = {
@@ -16,10 +15,8 @@ function Navigation() {
   return (
     <Navbar expand="lg" fixed="top" collapseOnSelect>
       <Container>
-        <Navbar.Brand>
-          <LinkContainer to="/" exact>
-            <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
-          </LinkContainer>
+        <Navbar.Brand href="/">
+          <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
