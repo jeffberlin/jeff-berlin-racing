@@ -1,6 +1,9 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
-import { Link } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+// import { Link } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const styles = {
   paddingLeft: '.8rem',
@@ -11,35 +14,35 @@ const styles = {
 
 function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light" collapseOnSelect>
-      <div className="container">
-        <Link to="/">
-          <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
-        </Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link to="/" style={styles}>Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" style={styles}>About</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/news" style={styles}>News</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/photos" style={styles}>Photos</Link>
-            </li>
+    <Navbar expand="lg" fixed="top" collapseOnSelect>
+      <Container>
+        <Navbar.Brand>
+          <LinkContainer to="/">
+            <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
+          </LinkContainer>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+          <Nav>
+            <LinkContainer to="/" exact>
+              <Nav.Link style={styles}>Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/about">
+              <Nav.Link style={styles}>About</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/news">
+              <Nav.Link style={styles}>News</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/photos">
+              <Nav.Link style={styles}>Photos</Nav.Link>
+            </LinkContainer>
             {/* <li className="nav-item">
               <Link to="/contact" style={styles}>Contact</Link>
             </li> */}
-          </ul>
-        </div>
-      </div>
-    </nav>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 
