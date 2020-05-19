@@ -1,11 +1,13 @@
 import React from 'react';
 import CarouselComponent from "./CarouselComponent.js";
 import { Link } from 'react-router-dom';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Slider() {
   return (
-    <div className="row">
-      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center justify-content-lg-start">
+    <Row>
+        <Col lg={6} md={12} sm={12} className="d-flex justify-content-center justify-content-lg-start">
         <div className="section photos">
           <h2 className="section-header">Photos</h2>
           <p>
@@ -13,8 +15,8 @@ function Slider() {
           </p>
           <CarouselComponent />
         </div>
-      </div>
-    </div>
+      </Col>
+    </Row>
   )
 }
 

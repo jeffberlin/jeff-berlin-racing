@@ -1,9 +1,13 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Sponsors() {
   return (
-    <div className="row justify-content-center">
-      <div className="col">
+    // <div className="row justify-content-center">
+    <Row className="justify-content-center">
+      <Col>
+      {/* <div className="col"> */}
         <div className="sponsors">
           <h5>Partners</h5>
           <a href="https://www.noblestarrallyteam.com/" target="_blank" rel="noopener noreferrer">
@@ -55,8 +59,8 @@ function Sponsors() {
             />
           </a>
         </div>
-      </div>
-    </div>
+      </Col>
+    </Row>
   )
 }
 

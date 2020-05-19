@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -19,7 +20,8 @@ function App() {
   return (
     <main className="background">
       <Navigation />
-      <div className="container content-area">
+      {/* <div className="container content-area"> */}
+      <Container className="content-area">
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} />
@@ -28,7 +30,7 @@ function App() {
           <Route component={Error} />
         </Switch>
         <Footer />
-      </div>
+      </Container>
     </main>
   );
 }

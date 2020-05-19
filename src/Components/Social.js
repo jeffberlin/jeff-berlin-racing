@@ -1,8 +1,9 @@
 import React from 'react';
+import Col from 'react-bootstrap/Col';
 
 function Social() {
   return (
-    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 order-lg-2 justify-content-center justify-content-sm-start">
+    <Col lg={{ span: 4, order: 2 }} md={12} sm={12} className="justify-content-center justify-content-sm-start">
       <div className="section social">
         <h2 className="section-header">Follow</h2>
         <a href="https://www.facebook.com/jeffberlinracing" target="_blank" rel="noopener noreferrer">
@@ -21,7 +22,7 @@ function Social() {
           <img src="./images/linkedin_circle_150px.png" alt="LinkedIn logo" title="Follow on LinkedIn!" />
         </a>
       </div>
-    </div>
+    </Col>
   )
 }
 

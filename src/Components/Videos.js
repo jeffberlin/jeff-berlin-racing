@@ -1,8 +1,10 @@
 import React from 'react';
+import Col from 'react-bootstrap/Col';
 
 function Videos() {
   return (
-    <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 order-lg-1 justify-content-center justify-content-md-start">
+    // <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 order-lg-1 justify-content-center justify-content-md-start">
+      <Col lg={{ span: 8, order: 1 }} md={12} sm={12} className="justify-content-center justify-content-md-start">
       <div className="section videos">
         <h2 className="section-header">Videos</h2>
         <p>
@@ -63,7 +65,7 @@ function Videos() {
           </div>
         </div>
       </div>
-    </div>
+    </Col>
   )
 }
 
