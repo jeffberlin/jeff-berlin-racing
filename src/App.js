@@ -20,7 +20,6 @@ function App() {
   return (
     <main className="background">
       <Navigation />
-      {/* <div className="container content-area"> */}
       <Container className="content-area">
         <Switch>
           <Route path="/" component={Home} exact />

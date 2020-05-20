@@ -4,10 +4,8 @@ import Col from 'react-bootstrap/Col';
 
 function Sponsors() {
   return (
-    // <div className="row justify-content-center">
     <Row className="justify-content-center">
       <Col>
-      {/* <div className="col"> */}
         <div className="sponsors">
           <h5>Partners</h5>
           <a href="https://www.noblestarrallyteam.com/" target="_blank" rel="noopener noreferrer">
