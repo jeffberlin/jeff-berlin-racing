@@ -8,11 +8,11 @@ import Row from 'react-bootstrap/Row';
 function Home() {
   return (
     <>
-      <Row>
-        <Social />
-        <Videos />
-      </Row>
-      <Slider />
+    <Row>
+      <Social />
+      <Videos />
+    </Row>
+    <Slider />
     </>
   )
 }

@@ -26,7 +26,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />
           <Route path="/photos" component={Photos} />
-          <Route component={Error} />
+          <Route path="*" component={Error} />
         </Switch>
         <Footer />
       </Container>
