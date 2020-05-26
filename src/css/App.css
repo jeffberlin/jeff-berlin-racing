@@ -30,6 +30,7 @@ p {
 .section-header {
   margin-bottom: 1rem;
 	font-family: nimbus-sans, sans-serif;
+	font-display: swap;
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: 1px;
