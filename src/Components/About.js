@@ -13,7 +13,7 @@ function About() {
           <span style={{display: 'block'}}>
             <img
               className="img-thumbnail float-md-left mr-2 mb-2"
-              src="./images/jeff-berlin-stpr-2019.jpg"
+              src="./images/jeff-berlin-stpr-2019-min.jpg"
               alt="Jeff Berlin"
               style={{borderRadius: '8px'}}
             />
