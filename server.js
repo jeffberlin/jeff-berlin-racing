@@ -1,5 +1,7 @@
 //server.js
 const express = require('express');
+//for Helmet / hsts
+const helmet = require('helmet');
 const favicon = require('express-favicon');
 const path = require('path');
 const port = process.env.PORT || 8080;
@@ -16,11 +18,8 @@ app.get('/*', function (req, res) {
 });
 app.listen(port);
 
-// For HSTS
-const helmet = require('helmet')
-
 // Sets "Strict-Transport-Security: max-age=5184000; includeSubDomains".
 const oneWeekInSeconds = 604800
 app.use(helmet.hsts({
   maxAge: oneWeekInSeconds
-}))
+}));
