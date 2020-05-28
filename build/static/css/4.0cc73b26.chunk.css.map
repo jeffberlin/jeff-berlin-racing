@@ -1,1 +1,0 @@
-{"version":3,"sources":["videos.css"],"names":[],"mappings":"AAAA,MACE,aAAc,CACd,eACF,CAEA,YACE,UAAc,CACd,uBAAyB,CACzB,+BAAiC,CACjC,oBACF","file":"4.0cc73b26.chunk.css","sourcesContent":[".link {\n  color: #0040FF;\n  font-weight: 600;\n}\n\n.link:hover {\n  color: #FF6600;\n  transition: all 0.4s ease;\n  -webkit-transition: all 0.4s ease;\n  text-decoration: none;\n}\n"]}
