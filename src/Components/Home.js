@@ -1,18 +1,21 @@
-import React from 'react';
-import Videos from './Videos';
-import Social from './Social';
-import Slider from './Slider';
+import React, { Suspense } from 'react';
 import '../css/videos.css';
 import Row from 'react-bootstrap/Row';
+
+const Videos = React.lazy(() => import('./Videos'));
+const Social = React.lazy(() => import('./Social'));
+const Slider = React.lazy(() => import('./Slider'));
 
 function Home() {
   return (
     <>
-    <Row>
-      <Social />
-      <Videos />
-    </Row>
-    <Slider />
+    <Suspense fallback={<div>Loading...</div>}>
+      <Row>
+        <Social />
+        <Videos />
+      </Row>
+      <Slider />
+    </Suspense>
     </>
   )
 }
