@@ -2,6 +2,7 @@ import React from 'react';
 import Social from './Social';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
         <div className="section about">
           <h2 className="section-header">About</h2>
           <span style={{display: 'block'}}>
-            <img
+            <Image
               className="img-thumbnail float-md-left mr-2 mb-2"
               src="./images/jeff-berlin-stpr-2019-min.jpg"
               alt="Jeff Berlin"

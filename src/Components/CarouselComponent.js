@@ -13,13 +13,13 @@ function CarouselComponent() {
         showThumbs={false}
       >
         <div>
-          <Image data-src="./images/jeff-berlin-racing-sandblast-rally-jump-min.jpg" alt="Jeff Berlin Sandblast Rally jump" className="lazyload" />
+          <Image src="./images/jeff-berlin-racing-sandblast-rally-jump-min.jpg" alt="Jeff Berlin Sandblast Rally jump" />
         </div>
         <div>
-          <Image data-src="./images/jeff-berlin-racing-subaru-interior-min.jpg" alt="Jeff Berlin Subaru interior" className="lazyload" />
+          <Image src="./images/jeff-berlin-racing-subaru-interior-min.jpg" alt="Jeff Berlin Subaru interior" />
         </div>
         <div>
-          <Image data-src="./images/jeff-berlin-racing-wilson-rallycross-1-min.jpg" alt="Jeff Berlin Wilson Rallycross drift" className="lazyload" />
+          <Image src="./images/jeff-berlin-racing-wilson-rallycross-1-min.jpg" alt="Jeff Berlin Wilson Rallycross drift" />
         </div>
       </Carousel>
     </div>
