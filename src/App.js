@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import { Route, Switch } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
-import Navigation from './Components/Navigation';
 import './css/App.css';
 import './css/nav.css';
 import './css/responsive.css';
@@ -16,6 +15,7 @@ const News = React.lazy(() => import('./Components/News'));
 const Photos = React.lazy(() => import('./Components/Photos'));
 const Error = React.lazy(() => import('./Components/Error'));
 const Footer = React.lazy(() => import('./Components/Footer'));
+const Navigation = React.lazy(() => import('./Components/Navigation'));
 
 function App() {
   return (
