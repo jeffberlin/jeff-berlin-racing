@@ -20,9 +20,9 @@ const Footer = React.lazy(() => import('./Components/Footer'));
 function App() {
   return (
     <main className="background">
-      <Navigation />
-      <Container className="content-area">
-        <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Navigation />
+        <Container className="content-area">
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
@@ -31,8 +31,8 @@ function App() {
             <Route path="*" component={Error} />
           </Switch>
           <Footer />
-        </Suspense>
-      </Container>
+        </Container>
+      </Suspense>
     </main>
   );
 }
