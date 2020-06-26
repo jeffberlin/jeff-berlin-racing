@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Image from 'react-bootstrap/Image';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const styles = {
@@ -13,10 +14,10 @@ const styles = {
 
 function Navigation() {
   return (
-    <Navbar expand="lg" fixed="top" collapseOnSelect>
+    <Navbar expand="false" fixed="top" collapseOnSelect>
       <Container>
         <Navbar.Brand href="/">
-          <img src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
+          <Image src="./images/jeff-berlin-racing-logo-text.svg" alt="Jeff Berlin Racing" height={35} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
@@ -30,9 +31,16 @@ function Navigation() {
             <LinkContainer to="/news">
               <Nav.Link style={styles}>News</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/photos">
+            <Nav.Link
+              href="https://www.foreverunitedapparel.com/"
+              target="_blank"
+              active={false}
+            >
+              Shop Forever United Apparel
+            </Nav.Link>
+            {/* <LinkContainer to="/photos">
               <Nav.Link style={styles}>Photos</Nav.Link>
-            </LinkContainer>
+            </LinkContainer> */}
             {/* <li className="nav-item">
               <Link to="/contact" style={styles}>Contact</Link>
             </li> */}

@@ -21,6 +21,15 @@ function CarouselComponent() {
         <div>
           <Image src="./images/jeff-berlin-racing-wilson-rallycross-1-min.jpg" alt="Jeff Berlin Wilson Rallycross drift" />
         </div>
+        <div>
+          <Image src="./images/jeff-berlin-racing-sandblast-awards-800-min.jpg" alt="Jeff Berlin Wilson Rallycross" />
+        </div>
+        <div>
+          <Image src="./images/jeff-berlin-racing-espr-800-min.jpg" alt="Jeff Berlin Empire State Performance Rally" />
+        </div>
+        <div>
+          <Image src="./images/jeff-berlin-racing-wilson-rallycross-2-900-min.jpg" alt="Jeff Berlin Wilson Rallycross" />
+        </div>
       </Carousel>
     </div>
   );
