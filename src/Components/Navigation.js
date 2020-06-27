@@ -28,8 +28,8 @@ function Navigation() {
             <LinkContainer to="/about">
               <Nav.Link style={styles}>About</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/news">
-              <Nav.Link style={styles}>News</Nav.Link>
+            <LinkContainer to="/media">
+              <Nav.Link style={styles}>Media</Nav.Link>
             </LinkContainer>
             <Nav.Link
               href="https://www.foreverunitedapparel.com/"
@@ -38,12 +38,6 @@ function Navigation() {
             >
               Shop Forever United Apparel
             </Nav.Link>
-            {/* <LinkContainer to="/photos">
-              <Nav.Link style={styles}>Photos</Nav.Link>
-            </LinkContainer> */}
-            {/* <li className="nav-item">
-              <Link to="/contact" style={styles}>Contact</Link>
-            </li> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

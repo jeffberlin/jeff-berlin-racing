@@ -11,11 +11,10 @@ import './css/footer.css';
 
 const Home = React.lazy(() => import('./Components/Home'));
 const About = React.lazy(() => import('./Components/About'));
-const News = React.lazy(() => import('./Components/News'));
-// const Photos = React.lazy(() => import('./Components/Photos'));
 const Error = React.lazy(() => import('./Components/Error'));
 const Footer = React.lazy(() => import('./Components/Footer'));
 const Navigation = React.lazy(() => import('./Components/Navigation'));
+const Media = React.lazy(() => import('./Components/Media'));
 
 function App() {
   return (
@@ -26,8 +25,7 @@ function App() {
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
-            <Route path="/news" component={News} />
-            {/* <Route path="/photos" component={Photos} /> */}
+            <Route path="/media" component={Media} />
             <Route path="*" component={Error} />
           </Switch>
           <Footer />
