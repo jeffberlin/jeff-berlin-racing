@@ -8,11 +8,11 @@ import Slider from './Slider';
 function Home() {
   return (
     <>
-    <Row>
-      <Social />
-      <Videos />
-    </Row>
-    <Slider />
+      <Row>
+        <Social />
+        <Videos />
+      </Row>
+      <Slider />
     </>
   )
 }
