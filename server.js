@@ -1,5 +1,7 @@
 //server.js
 const express = require('express');
+const compression = require('compression');
+app.use(compression());
 //for Helmet / hsts
 const helmet = require('helmet');
 const favicon = require('express-favicon');

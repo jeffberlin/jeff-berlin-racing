@@ -21,3 +21,10 @@
 a:hover {
   text-decoration: none !important;
 }
+
+.navlink-style {
+  padding-left: .8rem;
+  padding-right: .8rem;
+  color: #707070;
+  letter-spacing: 1px;
+}

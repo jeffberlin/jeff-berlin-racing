@@ -5,13 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
 import { LinkContainer } from 'react-router-bootstrap';
 
-const styles = {
-  paddingLeft: '.8rem',
-  paddingRight: '.8rem',
-  color: '#707070',
-  letterSpacing: '1px'
-}
-
 function Navigation() {
   return (
     <Navbar expand="false" fixed="top" collapseOnSelect>
@@ -23,13 +16,13 @@ function Navigation() {
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
             <LinkContainer to="/" exact>
-              <Nav.Link style={styles}>Home</Nav.Link>
+              <Nav.Link className="navlink-style">Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
-              <Nav.Link style={styles}>About</Nav.Link>
+              <Nav.Link className="navlink-style">About</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/media">
-              <Nav.Link style={styles}>Media</Nav.Link>
+              <Nav.Link className="navlink-style">Media</Nav.Link>
             </LinkContainer>
             <Nav.Link
               href="https://www.foreverunitedapparel.com/"

@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, lazy } from 'react';
 import { Route, Switch } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import './css/App.css';
@@ -9,12 +9,12 @@ import './css/sponsors.css';
 import './css/about.css';
 import './css/footer.css';
 
-const Home = React.lazy(() => import('./Components/Home'));
-const About = React.lazy(() => import('./Components/About'));
-const Error = React.lazy(() => import('./Components/Error'));
-const Footer = React.lazy(() => import('./Components/Footer'));
-const Navigation = React.lazy(() => import('./Components/Navigation'));
-const Media = React.lazy(() => import('./Components/Media'));
+const Home = lazy(() => import('./Components/Home'));
+const About = lazy(() => import('./Components/About'));
+const Error = lazy(() => import('./Components/Error'));
+const Footer = lazy(() => import('./Components/Footer'));
+const Navigation = lazy(() => import('./Components/Navigation'));
+const Media = lazy(() => import('./Components/Media'));
 
 function App() {
   return (
