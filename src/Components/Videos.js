@@ -7,7 +7,7 @@ function Videos() {
       <div className="section videos">
         <h2 className="section-header">Videos</h2>
         <p>
-          <a href="https://www.youtube.com/user/GymkhanaRally88" target="_blank" className="link" rel="noopener noreferrer">See more</a> videos on our YouTube channel and don't forget to subscribe!
+          Check out our&nbsp;<a href="https://www.youtube.com/user/GymkhanaRally88" target="_blank" className="link" rel="noopener noreferrer">racing channel</a>&nbsp;and don't forget to subscribe!
         </p>
         <div className="row">
           <div className="col-sm-8 col-md-6">
