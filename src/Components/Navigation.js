@@ -28,6 +28,7 @@ function Navigation() {
               href="https://www.foreverunitedapparel.com/"
               target="_blank"
               active={false}
+              rel="noopener"
             >
               Shop Forever United Apparel
             </Nav.Link>
