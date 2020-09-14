@@ -16,7 +16,7 @@ function Social() {
         <a href="https://www.youtube.com/user/GymkhanaRally88" target="_blank" rel="noopener noreferrer">
           <Image src="./images/youtube_circle_150px.png" alt="YouTube logo" title="Subscribe on YouTube!" />
         </a>
-        <a href="https://www.twitter.com/jeffberlinrally" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.twitter.com/jeffberlin_race" target="_blank" rel="noopener noreferrer">
           <Image src="./images/twitter_circle_150px.png" alt="Twitter logo" title="Follow on Twitter!" />
         </a>
         <a href="https://www.linkedin.com/company/jeffberlinracing/" target="_blank" rel="noopener noreferrer">
