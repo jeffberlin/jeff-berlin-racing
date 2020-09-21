@@ -26,6 +26,7 @@ function App() {
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
             <Route path="/media" component={Media} />
+            <Route exact path="/google85ed59964fc3f6d6.html" render={() => {window.location.href="google.html"}} />
             <Route path="*" component={Error} />
           </Switch>
           <Footer />
