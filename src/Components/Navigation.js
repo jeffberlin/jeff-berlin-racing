@@ -1,13 +1,13 @@
-import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 import { LinkContainer } from 'react-router-bootstrap';
 
 function Navigation() {
   return (
     <header className='header'>
-      <Navbar expand="false" fixed="top" collapseOnSelect="true">
+      <Navbar expand="lg" fixed="top" collapseOnSelect variant="light">
         <Container>
           <Navbar.Brand href="/">
             <Image src="./images/jb-new-logo-text-min.png" alt="Jeff Berlin Racing" height={35} />

@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import './css/App.css';
 import './css/nav.css';
-import './css/responsive.css';
 import './css/social.css';
 import './css/sponsors.css';
 import './css/about.css';
