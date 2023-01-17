@@ -1,0 +1,22 @@
+@media (max-width: 1650px) {
+  .image-container img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .sponsors img {
+    height: 20px;
+  }
+}
+
+@media (max-width: 567px) {
+  .background {
+    height: 250px;
+    background-image: url(./jeff-berlin-racing-background-small-min.jpg);
+  }
+
+  .content-area {
+    margin-top: 10rem;
+  }
+}

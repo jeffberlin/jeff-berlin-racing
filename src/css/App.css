@@ -1,0 +1,69 @@
+/*
+Orange: #FF6600
+Blue: #0040FF
+Logo Grey: #A9A9A9
+Backgroung Grey: #DDDDDD
+Other grey/paragraph: #707070
+*/
+
+html, body {
+	overflow-x: hidden;
+	height: 100%;
+	text-align: inherit;
+}
+
+body {
+	background-color: #DDDDDD;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  letter-spacing: .5px;
+  color: #707070;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  margin-bottom: 1rem;
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+.background {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./jeff-berlin-racing-background-min.jpg);
+	background-color: #FF6600;
+  padding-top: 3.5rem;
+  max-height: 500px;
+	width: 100%;
+}
+
+.content-area {
+  background-color: #ffffff;
+  border: 1px solid #a9a9a9;
+  padding-top: 2rem;
+	padding-bottom: 2rem;
+  margin-top: 22rem;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.fb-page {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(77, 77, 77, 0.6);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(77, 77, 77, 0.6);
+  box-shadow: 0px 0px 15px 0px rgba(77, 77, 77, 0.6);
+}
